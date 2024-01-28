@@ -21,7 +21,7 @@ form.addEventListener('submit', (e) => {
         message: message
     };
 
-    fetch('http://localhost:3000/contact', {
+    fetch('https://forma-mod.netlify.app/contact', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
